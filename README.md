@@ -12,7 +12,7 @@ It avoids scoped npm packages for proxy-friendly installs.
 ## Tools
 - **chatgpt.ask** → calls OpenAI API
 - **supabase.query** → queries Supabase REST scoped by projectId
-- **codex.run** → optional code generation + GitHub commit
+- **codex.run** → optional code generation + GitHub commit using direct GitHub REST API calls (no `@octokit/rest` dependency)
 
 ## Deploy
 Push this repo to GitHub, then import it in Vercel.  
